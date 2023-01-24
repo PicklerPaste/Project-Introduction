@@ -1,0 +1,398 @@
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #000000;
+}
+
+.cabeçalho {
+	background: #000000;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1rem groove #34781d;
+	z-index: 7;
+}
+
+.cabeçalhoimagem {
+	position: relative;
+	left: 15%;
+	background: #34781d;
+	width: 7%;
+	height: 6rem;
+	margin: 0.5rem auto;
+
+}
+
+.menu {
+	position: absolute;
+	top:35%;
+	right: 0;
+	width: 70%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cabeçalholistaitens {
+	font-family: 'VT323', monospace;
+	margin: 0 0 0 3rem;
+	font-size: 2.5rem;
+	color: green;
+	display: inline;
+}
+
+.cabeçalholistaitens:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cabeçalholistaitens:active {
+	color: white;
+}
+
+.inicio{
+	padding: 12% 0 4.5% 0;
+	width: 100%;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #34781d -30%, #000000 60%);
+	border: 1rem groove #34781d;
+	display: inline-block;
+}
+
+.inicioconteudo {
+	border-right: 3px solid #34781d;
+	font-family: 'VT323', monospace;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 15%;
+	color: #34781d;
+	font-size: 5rem;
+	animation: cursor 500ms steps(30) infinite normal, typing 1s steps(30) 1s normal both;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@keyframes typing {
+	from{
+		width: 0;
+	}
+	to{
+		width: 30rem;
+	}
+}
+
+@keyframes cursor {
+	from{
+		border-right-color: #34781d;
+	}
+	to{
+		border-right-color: transparent;
+	}
+}
+
+.inicioimagem {
+	margin-right: 15%;
+	width: 20%;
+	float: right;
+	margin-bottom: 8.5rem;
+}
+
+.sobre {
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #34781d -30%, #000000 60%);
+	border: 1rem groove #34781d;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.sobreimagem {
+	width: 30%;
+	float: left;
+	margin: 19% 5% 9% 7%;
+}
+
+.sobretitulo {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+	color: green;
+	font-size: 5rem;
+	margin-top: 14%;
+	margin-bottom: 2%;
+}
+.sobreconteudo {
+	color: green;
+	font-size: 2.5rem;
+	font-family: 'VT323', monospace;
+}
+
+.habilidades {
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #34781d -30%, #000000 60%);
+	border: 1rem groove #34781d;
+	display: inline-block;
+}
+
+.habilidadestitulo {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+	color: green;
+	font-size: 5rem;
+	text-align: center;
+	margin-top: 13%;
+	margin-bottom: 3rem;
+}
+
+.habilidadeslistaitens {
+	display: inline-block;
+	color: green;
+	text-align: center;
+	width: calc(90% / 3);
+	margin: 0 1.5% 1.5% 1.5%;
+	box-sizing: border-box;
+	padding: 1rem 0.5rem;
+	border: 2px solid #34781d;
+	border-radius: 10px;
+}
+
+.habilidadeslistaitens:hover {
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+}
+
+.habilidadeslistaitens:active {
+	color: black;
+	background: white;
+}
+
+.habilidadeslistaitens:active .fa-css3-alt {
+	color: #264de4;
+	background: white;
+}
+
+.habilidadeslistaitens:active .fa-js {
+	color: #f0db4f;
+	background: white;
+}
+
+.habilidadeslistaitens:active .fa-html5 {
+	color: #e34c26;
+	background: white;
+}
+
+.habilidadeslistaitenstitulo {
+	font-size: 3rem;
+	font-family: 'VT323', monospace;	
+}
+
+.habilidadeslistaitensdescricao {
+	font-size: 1.5rem;
+	font-family: 'VT323', monospace;
+}
+
+.fa-css3-alt, .fa-js, .fa-html5 {
+	font-size: 5rem;
+	margin: 2rem 0;
+}
+
+.projetos {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #34781d -30%, #000000 30%);
+	border: 1rem groove #34781d;
+	display: inline-block;
+}
+
+.projetostitulo {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+	color: green;
+	font-size: 5rem;
+	text-align: center;
+	margin-top: 13%;
+	margin-bottom: 3rem;
+}
+
+.projetoslistaitens {
+	color: green;
+	text-align: left;
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #34781d;
+	border-radius: 10px;
+	height: 300px;
+	transition: 500ms;
+}
+
+.projetoslistaitens:hover, .projetoslistaitensvazio:hover {
+	color: white;
+	border: 2px solid #FFFFFF
+}
+
+.projetoslistaitenstitulo {
+	font-family: 'VT323', monospace;
+	position: relative;
+	display: inline-block;
+	font-size: 2rem;
+	margin: 8.1rem 2rem auto 1rem;
+	vertical-align: top;
+}
+
+.projetoslistaitensimagem {
+	width: 17%;
+	margin: 2rem 9rem;
+	border: 2px solid #34781d;
+	border-radius: 10px;
+	transition: 500ms;
+}
+
+.projetoslistaitensimagem:hover, .projetoslistaitensimagemcalculadora:hover {
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.projetoslistaitensimagemcalculadora {
+	width: 30%;
+	margin: 1rem 15rem;
+	border: 2px solid #34781d;
+	border-radius: 10px;
+	transition: 500ms;
+}
+
+.projetoslistaitensvazio {
+	color: green;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #34781d;
+	border-radius: 10px;
+	height: 300px;
+	transition: 500ms;
+}
+
+.projetoslistaitenstitulovazio {
+	margin-top: 5rem;
+	font-family: 'VT323', monospace;
+	font-size: 2rem;
+}
+
+.projetoslistaitensimagemloading {
+	height: 5rem;
+	width: 15rem;
+	object-fit: cover;
+}
+
+.footer {
+	background: url("fundo4.jpeg");
+	text-align: center;
+	border: 1rem groove #34781d;
+	box-sizing: border-box;
+}
+
+.footerimagem {
+	width: 8%;
+	right: 50%;
+}
+
+.copyright {
+	font-family: 'VT323', monospace;
+	color: green;
+	margin-bottom: 1rem;
+}
+
+.footericons {
+	float: right;
+	margin-top: -7rem;
+	margin-right: 5rem;
+}
+
+.fa-github, .fa-linkedin {
+	font-size: 5rem;
+	margin-left: 4rem;
+	color: white;
+	transition: 500ms;
+}
+
+.fa-github:hover{
+	color: black;
+	cursor: pointer;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+	html, body, main, .cabeçalho, .menu, .inicio, .sobre, .habilidades, .projetos {
+		min-width: min-content;
+	}
+
+	.cabeçalhoimagem {
+		left: 1%;
+	}
+
+	.menu {
+		width: auto;
+	}
+
+	.inicio, .sobre, .habilidades {
+		height: 100vh;
+	}
+
+	.inicioconteudo {
+		margin-top: 70%;
+	}
+
+	.inicioimagem {
+		margin-top: 25%;
+		margin-right: 10%;
+	}
+
+	.sobreimagem {
+		margin: 40% 5% 5% 7%;
+	}
+
+	.sobretitulo {
+		margin-top: 25%;
+	}
+
+	.sobreconteudo {
+		font-size: 3rem;
+	}
+
+	.habilidadestitulo {
+		margin-top: 22%;
+		margin-bottom: 10%;
+	}
+
+	.habilidadeslistaitens {
+		height: 348px;
+	}
+
+	.habilidadeslista {
+		display: inline-flex;
+	}
+
+	.projetoslistaitensimagem {
+		margin: 4rem 4rem;
+	}
+
+	.projetoslistaitensimagemcalculadora {
+		margin: 3rem 7rem;
+	}
+
+	.footericons {
+		margin-top: -5.8rem;
+    	margin-right: 3rem;
+	}
+}

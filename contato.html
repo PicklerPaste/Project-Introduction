@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Jair Pickler</title>
+		<link rel="shortcut icon" href="studies_ico.ico">
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato_style.css">
+		<script src="https://kit.fontawesome.com/ce19328c71.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="contatocabeçalho">
+				<img src="imagem_logo3.gif" class="contatocabeçalhoimagem" alt="Image Studies">
+
+				<nav class="contatomenu">
+					<ul>
+						<a href="index.html"><li class="contatocabeçalholistaitens"><i class="fa-solid fa-square-caret-left"></i>Início</li></a>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="contato">
+				<h1 class="contatotitulo">Contato</h1>
+				<img class="contatoimagem" src="imagem_contato.png" alt="Send Image">
+				<form>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input_contato" required>
+
+					<label for="email">E-mail</label>
+					<input type="email" id="email" class="input_contato" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input_contato" required placeholder="(XX) XXXXX-XXXX">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input_contato" required></textarea>
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">E-mail</label>
+
+						<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
+					
+						<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>WhatsApp</label>
+					
+					</fieldset>
+
+					<input type="submit" value="Enviar Formulário" class="enviar">
+				</form>
+			</div>
+		</main>
+
+		<footer>
+			<div class="contatofooter">
+				<img class="contatofooterimagem" src="footer_up1.png" alt="Footer Image">
+				<p class="contatocopyright">&#169; Copyright Jair Pickler Junior - 2023</p>
+				<div class="contatofootericons">
+					<a href="https://github.com/PicklerPaste"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/jair-pickler-junior"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
