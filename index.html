@@ -19,15 +19,17 @@
 	<body>
 		<header>
 			<div class="cabeçalho">
-				<a href="index.html"><img src="imagem_logo3.gif" class="cabeçalhoimagem" alt="Image Studies"></a>
+				<input id="btn" type="button">
+    			<label for="btn" class="mudar-tema"><i id="sollua" class="fa-solid fa-sun"></i></label>
+				<a href="index.html"><img src="imagem_logo4.gif" class="cabeçalhoimagem" alt="Image Studies"></a>
 
 				<nav class="menu">
 					<ul>
-						<a href="#inicioscroll"><li class="cabeçalholistaitens">Início</li></a>
-						<a href="#sobrescroll"><li class="cabeçalholistaitens">Sobre</li></a>
-						<a href="#habilidadesscroll"><li class="cabeçalholistaitens">Habilidades</li></a>
-						<a href="#projetosscroll"><li class="cabeçalholistaitens">Projetos</li></a>
-						<a href="contato.html"><li class="cabeçalholistaitens">Contato</li></a>
+						<a href="#inicioscroll"><li id="cabeçalholistaitens" class="cabeçalholistaitens">Início</li></a>
+						<a href="#sobrescroll"><li id="cabeçalholistaitens" class="cabeçalholistaitens">Sobre</li></a>
+						<a href="#habilidadesscroll"><li id="cabeçalholistaitens" class="cabeçalholistaitens">Habilidades</li></a>
+						<a href="#projetosscroll"><li id="cabeçalholistaitens" class="cabeçalholistaitens">Projetos</li></a>
+						<a href="contato.html"><li id="cabeçalholistaitens" class="cabeçalholistaitens">Contato</li></a>
 					</ul>
 				</nav>
 			</div>
@@ -53,17 +55,17 @@
 				<section class="habilidades">
 					<h1 class="habilidadestitulo">Habilidades</h1>
 					<ul class="habilidadeslista">
-						<li class="habilidadeslistaitens">
+						<li id="habilidadeslistaitens" class="habilidadeslistaitens">
 							<h2 class="habilidadeslistaitenstitulo">CSS</h2>
 							<i class="fa-brands fa-css3-alt"></i>
 							<p class="habilidadeslistaitensdescricao">Cascading Style Sheets é um mecanismo para adicionar estilos (cores, fonte, etc.) a uma página web</p>
 						</li>
-						<li class="habilidadeslistaitens">
+						<li id="habilidadeslistaitens" class="habilidadeslistaitens">
 							<h2 class="habilidadeslistaitenstitulo">JavaScript</h2>
 							<i class="fa-brands fa-js"></i>
 							<p class="habilidadeslistaitensdescricao">É uma linguagem de programação. HTML, CSS e JS formam as três principais tecnologias W.W.W.</p>
 						</li>
-						<li class="habilidadeslistaitens">
+						<li id="habilidadeslistaitens" class="habilidadeslistaitens">
 							<h2 class="habilidadeslistaitenstitulo">HTML</h2>
 							<i class="fa-brands fa-html5"></i>
 							<p class="habilidadeslistaitensdescricao">HTML é uma linguagem de marcação utilizada na construção (estrutura) de páginas na Web.</p>
@@ -76,22 +78,22 @@
 				<section class="projetos">
 					<h1 class="projetostitulo">Projetos</h1>
 					<ul class="projetoslista">
-						<li class="projetoslistaitens">
+						<li id="projetoslistaitens" class="projetoslistaitens">
 							<h2 class="projetoslistaitenstitulo">Games Orientados</h2>
-							<a href="https://editor.p5js.org/AeonLiberX/full/06elfi_dw"><img class="projetoslistaitensimagem" src="gif_projetos_pong_game.gif" alt="Game Image Pong"></a>
-							<a href="https://editor.p5js.org/AeonLiberX/full/JAWBs7nUa"><img class="projetoslistaitensimagem" src="gif_projetos_free_way_game.gif" alt="Game Image FreeWay"></a>
+							<a href="https://editor.p5js.org/AeonLiberX/full/06elfi_dw"><img id="projetoslistaitensimagem" class="projetoslistaitensimagem" src="gif_projetos_pong_game.gif" alt="Game Image Pong"></a>
+							<a href="https://editor.p5js.org/AeonLiberX/full/JAWBs7nUa"><img id="projetoslistaitensimagem" class="projetoslistaitensimagem" src="gif_projetos_free_way_game.gif" alt="Game Image FreeWay"></a>
 						</li>
-						<li class="projetoslistaitens">
+						<li id="projetoslistaitens" class="projetoslistaitens">
 							<h2 class="projetoslistaitenstitulo">Calculadora JavaScript</h2>
-							<a href="https://calculator-js-ochre.vercel.app/"><img class="projetoslistaitensimagemcalculadora" src="imagem_projetos_calculadora.png" alt="Calculator Image"></a>
+							<a href="https://calculator-js-ochre.vercel.app/"><img id="projetoslistaitensimagemcalculadora" class="projetoslistaitensimagemcalculadora" src="imagem_projetos_calculadora.png" alt="Calculator Image"></a>
 						</li>
-						<li class="projetoslistaitensvazio">
+						<li id="projetoslistaitensvazio" class="projetoslistaitensvazio">
 							<h2 class="projetoslistaitenstitulovazio">LOADING...</h2>
-							<img class="projetoslistaitensimagemloading" src="loading_bar.gif" alt="Loading Bar">
+							<img class="projetoslistaitensimagemloading" src="loading_bar1.gif" alt="Loading Bar">
 						</li>
-						<li class="projetoslistaitensvazio">
+						<li id="projetoslistaitensvazio" class="projetoslistaitensvazio">
 							<h2 class="projetoslistaitenstitulovazio">LOADING...</h2>
-							<img class="projetoslistaitensimagemloading" src="loading_bar.gif" alt="Loading Bar">
+							<img class="projetoslistaitensimagemloading" src="loading_bar1.gif" alt="Loading Bar">
 						</li>
 					</ul>
 				</section>
@@ -108,5 +110,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="main.js"></script>
 	</body>
 </html>
