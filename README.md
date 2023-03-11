@@ -5,7 +5,7 @@ Aprimorando e apresentando habilidades em CSS e HTML
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Introdução - Perfil e Habilidades**
-| :label: Tecnologias | css, html
+| :label: Tecnologias | css, html, javascript
 | :rocket: URL         | https://jairpicklerjr.vercel.app/index.html
 | :fire: Desafio     | https://jairpicklerjr.vercel.app/index.html
 
