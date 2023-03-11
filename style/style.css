@@ -33,7 +33,7 @@ body {
 	display: none;
 }
 
-.dark-mode {
+.light-mode {
 	--bg-cor: #FFFFFF;
 }
 
@@ -191,6 +191,10 @@ a {
 	cursor: pointer;
 }
 
+#habilidadeslistaitens.habilidadeslistaitens:active {
+	color: black;
+}
+
 #habilidadeslistaitens:hover {
 	border: 2px solid purple;
 	cursor: pointer;
@@ -268,7 +272,12 @@ a {
 
 #projetoslistaitens.projetoslistaitens:hover, #projetoslistaitensvazio.projetoslistaitensvazio:hover {
 	color: white;
-	border: 2px solid #FFFFFF
+	border: 2px solid white;
+}
+
+#projetoslistaitens.projetoslistaitens:hover, #projetoslistaitensvazio.projetoslistaitensvazio:active {
+	color: white;
+	border: 2px solid white;
 }
 
 .projetoslistaitenstitulo {
@@ -305,7 +314,7 @@ a {
 }
 
 #projetoslistaitensimagem.projetoslistaitensimagem:hover, #projetoslistaitensimagemcalculadora.projetoslistaitensimagemcalculadora:hover {
-	border: 2px solid #FFFFFF;
+	border: 2px solid white;
 	cursor: pointer;
 	opacity: 0.5;
 }
@@ -352,7 +361,7 @@ a {
 }
 
 .footer {
-	background: url("fundo4.jpeg");
+	background: url("../imagens/fundo4.jpeg");
 	text-align: center;
 	border: 1rem groove #34781d;
 	box-sizing: border-box;

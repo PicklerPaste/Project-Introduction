@@ -1,3 +1,8 @@
+body {
+	background: var(--bg-cor);
+	--bg-cor: #000000;
+}
+
 .contatomenu {
 	position: absolute;
 	top:28%;
@@ -6,7 +11,7 @@
 }
 
 .contatocabeçalho {
-	background: #000000;
+	background: var(--bg-cor);
 	position: fixed;
 	width: 100%;
 	box-sizing: border-box;
@@ -14,10 +19,29 @@
 	z-index: 7;
 }
 
+#solluacontato {
+	float: left;
+	margin-top: 2.5rem;
+	margin-left: 1rem;
+	color: #34781d;
+	font-size: 2rem;
+}
+
+.mudar-tema {
+	cursor: pointer;
+}
+
+#btn {
+	display: none;
+}
+
+.light-mode {
+	--bg-cor: #FFFFFF;
+}
+
 .contatocabeçalhoimagem {
 	position: relative;
 	left: 15%;
-	background: #34781d;
 	width: 7%;
 	height: 6rem;
 	margin: 0.5rem auto;
@@ -33,19 +57,23 @@ a {
 	text-decoration: none;
 }
 
-.contatocabeçalholistaitens {
+#btninicio {
 	font-family: 'VT323', monospace;
 	font-size: 4rem;
 	color: green;
 	display: inline;
 }
 
-.contatocabeçalholistaitens:hover {
+#btninicio:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-.contatocabeçalholistaitens:active {
+#btninicio:active {
+	color: purple;
+}
+
+#btninicio.contatocabeçalholistaitens:active {
 	color: white;
 }
 
@@ -59,7 +87,7 @@ form {
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
-	background: linear-gradient(180deg, #34781d -30%, #000000 30%);
+	background: linear-gradient(180deg, #34781d -30%, var(--bg-cor) 30%);
 	border: 1rem groove #34781d;
 	display: inline-block;
 }
@@ -80,14 +108,14 @@ form {
 	margin: 10rem 11rem 0 0;
 }
 
-form label, form legend {
+label, legend {
 	display: block;
 	font-size: 2rem;
 	font-family: 'VT323', monospace;
 	margin: 0.5rem 0 0 0;
 }
 
-form input {
+input {
 	font-family: 'VT323', monospace;
 }
 
@@ -96,11 +124,11 @@ form input {
 	color: green;
 	font-size: 2rem;
 	display: block;
-	width: 40%;
-	background: black;
+	width: 65%;
+	background: var(--bg-cor);
 }
 
-fieldset {
+fieldset.radioinput {
 	margin-top: 2rem;
 }
 
@@ -108,7 +136,7 @@ fieldset {
 	font-family: 'VT323', monospace;
 	width: 40%;
 	margin: 2rem 0;
-	background: black;
+	background: var(--bg-cor);
 	color: green;
 	font-size: 2rem;
 	cursor: pointer;
@@ -123,8 +151,30 @@ fieldset {
 	transform: scale(1.1);
 }
 
+.mensagem-erro {
+	font-family: 'VT323', monospace;
+    color: red;
+	font-size: 2rem;
+}
+
+.loading {
+	margin-top: 3px;
+	width: 23px;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 .contatofooter {
-	background: url("fundo4.jpeg");
+	background: url("../imagens/fundo4.jpeg");
 	text-align: center;
 	border: 1rem groove #34781d;
 	box-sizing: border-box;
