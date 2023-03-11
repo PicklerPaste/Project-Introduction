@@ -2,6 +2,7 @@
 
 Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT
 
+| super-mario-mod |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Introdução - Perfil e Habilidades**
 | :label: Tecnologias | css, html, javascript
