@@ -1,6 +1,6 @@
 # Projeto Introdução - Perfil e Habilidades
 
-Aprimorando e apresentando habilidades em CSS e HTML
+Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
