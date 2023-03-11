@@ -2,7 +2,6 @@
 
 Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT
 
-| :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Introdução - Perfil e Habilidades**
 | :label: Tecnologias | css, html, javascript
