@@ -9,7 +9,7 @@ Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT
 | :rocket: URL         | https://jairpicklerjr.vercel.app/index.html
 | :fire: Desafio     | https://jairpicklerjr.vercel.app/index.html
 
-![](https://jairpicklerjr.vercel.app/imagem_sobre.gif#vitrinedev)
+![](https://jairpicklerjr.vercel.app/imagens/imagem_sobre.gif#vitrinedev)
 
 ## Detalhes do projeto
 
